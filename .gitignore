@@ -1,0 +1,11 @@
+projects/
+**/__pycache__/
+*.py[cod]
+**/node_modules/
+**/.env
+**/.env.*
+!**/.env.example
+examples/**/output/frames/
+.DS_Store
+Thumbs.db
+

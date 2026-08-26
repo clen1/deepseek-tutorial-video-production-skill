@@ -1,0 +1,27 @@
+{
+  "project_id": "harness-windows-install-sample",
+  "subject": "DeepSeek Harness Windows 安装与首次使用",
+  "audience": "第一次接触本地 Agent 工具的 Windows 用户",
+  "platform": "Bilibili / 视频号",
+  "language": "zh-CN",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "aspect_ratio": "16:9"
+  },
+  "preview": {
+    "seconds_per_shot": 2.0,
+    "audio": false,
+    "label": "故事板结构预览，不是安装成功实录"
+  },
+  "narration": {
+    "voice": "longanlingxin",
+    "model": "qwen-audio-3.0-tts-plus",
+    "style": "年轻自然、清晰温暖、轻微活力的女性科技讲解员"
+  },
+  "safety": {
+    "secret_policy": "只显示 sk-••••••••••••••••",
+    "official_claims_require_evidence": true
+  }
+}

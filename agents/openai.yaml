@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutorial Video Production"
+  short_description: "Produce polished narrated tutorial videos"
+  default_prompt: "Use $deepseek-tutorial-video-production to produce a polished narrated software tutorial video from a brief and local assets."
