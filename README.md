@@ -55,7 +55,15 @@ python scripts/validate_video_project.py `
 
 ## 语音生成
 
-本 Skill 不绑定某一家 TTS 服务。配套的阿里云 Qwen Audio 示例位于独立仓库：`clen1/qwen-audio-tts-examples`。真实 API Key 必须仅保存在本地 `.env`，不要提交到 Git。
+本 Skill 不绑定某一家 TTS 服务。仓库内置的 `tools/qwen-audio-tts/` 提供阿里云 Qwen Audio 3.0 TTS Plus 示例，包括单段试听、情感套件和逐段教程旁白。真实 API Key 必须仅保存在本地 `.env`，不要提交到 Git。
+
+```powershell
+Set-Location tools/qwen-audio-tts
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copy-Item .env.example .env
+.\.venv\Scripts\python.exe tts_demo.py
+```
 
 ## 发布安全
 
@@ -66,4 +74,3 @@ python scripts/validate_video_project.py `
 ## License
 
 [MIT](LICENSE)
-
